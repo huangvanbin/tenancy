@@ -1,0 +1,60 @@
+$colors: (
+	"primary": #db9e3f,
+	"info": #4b67af,
+	"white": #fff,
+	"light": #f9f9f9,
+	"light-1": #d4d9de,
+	"grey": #999,
+	"grey-1": #666,
+	"Honeydew-2": #E0EEE0, // 蜜露
+	"dark-1": #343440,
+	"dark-2": #222,
+	"black": #000,
+	"whiteSmoke": #F5F5F5,
+	"snow": #FFFAFA,
+	"CornflowerBlue": #6495ED, // 矢车菊的蓝色
+	"Crimson": #DC143C, //猩红
+	"LightSteelBlue": #B0C4DE, // 石板灰
+	"Honeydew":	#F0FFF0, // 蜂蜜
+	"GhostWhite":	#F8F8FF, // 幽灵的白
+	"MintCream": #F5FFFA, // 薄荷奶油
+	"zdyBlue": #b4d9ff,
+	"bjs": #FFFAFA
+);
+// border-color
+$border-color: map-get($colors, "Honeydew");
+// $border-color: map-get($colors, "white");
+
+// font-size
+$base-font-size: 1rem;
+$font-sizes: (
+	xxs: 0.5,	//8px
+	xs: 0.625, // 10px
+	sm: 0.75, // 12px
+	md: 0.8125, // 13px
+	lg: 0.875, // 14px
+	xl: 1, // 16px
+	xxl: 1.125, // 18px
+	ic: 1.25, // 20px
+	iic: 1.375, // 22px
+	ie: 1.625, // 26px
+	28: 1.725,
+);
+
+// spacing
+//.mt-1=>margin top .pd-2
+$spacing-types: (m: margin, p: padding);
+$spacing-direction: (t: top, r: right, b: bottom, l: left);
+$sapcing-base-size: 1rem;
+$spacing-sizes: (
+	0: 0,
+	1: 0.25,
+	2: 0.5,
+	3: 0.75,
+	4: 1,
+	5: 1.5,
+	6: 3,
+	7: -2.2,
+	8: 9
+);
+
